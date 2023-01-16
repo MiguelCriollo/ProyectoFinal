@@ -4,10 +4,27 @@ header{
 }
 .nombrePagina{
     text-align: center;
+    color: aqua;
 }
+.menu-navegacion{
+    text-decoration: none;
+    color: aqua;
+    border: 1;
+    border-style:solid;
+    align-content: space-around;
+}
+.contenedorLinksMenu a {
+    color: #362a2a;
+    text-decoration: none;
+    border: 1;
+    border-style:solid;
+   
+  }
+/*
 @media screen and (max-width:1200px){
     header{
         border: 1;
         border-style: dotted;
     }
 }
+*/
