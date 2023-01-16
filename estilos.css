@@ -1,0 +1,13 @@
+header{
+    border: 1;
+    border-style:solid;
+}
+.nombrePagina{
+    text-align: center;
+}
+@media screen and (max-width:1200px){
+    header{
+        border: 1;
+        border-style: dotted;
+    }
+}
