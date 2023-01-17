@@ -11,15 +11,22 @@ header{
     color: aqua;
     border: 1;
     border-style:solid;
-    align-content: space-around;
+    
+}
+.contenedorLinksMenu{
+    display: flex;
+    justify-content: right;
+    position: relative;
+    justify-content:space-around;
 }
 .contenedorLinksMenu a {
     color: #362a2a;
     text-decoration: none;
     border: 1;
-    border-style:solid;
-   
-  }
+    border-style:solid; 
+    
+    
+}
 /*
 @media screen and (max-width:1200px){
     header{
