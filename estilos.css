@@ -18,13 +18,14 @@ header{
     justify-content: right;
     position: relative;
     justify-content:space-around;
+    
 }
 .contenedorLinksMenu a {
-    color: #362a2a;
+    color: #ffffff;
     text-decoration: none;
     border: 1;
     border-style:solid; 
-    
+    background-color: black;
     
 }
 /*
