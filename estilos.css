@@ -35,6 +35,8 @@ header{
 .logoProyecto{
     height: 1cm;
     width: 1cm;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 /*
 @media screen and (max-width:1200px){
