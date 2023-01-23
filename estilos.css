@@ -9,28 +9,19 @@ header{
 .menu-navegacion{
     text-decoration: none;
     color: aqua;
-    border: 1;
-    border-style:solid;
-    
-}
-.contenedorLinksMenu{
     display: flex;
-    justify-content: right;
-    position: relative;
-    justify-content:space-around;
-    
 }
-.contenedorLinksMenu a {
+.menu-navegacion a {
     color: #ffffff;
     text-decoration: none;
     border: 1;
     border-style:solid; 
     background-color: black;
     
+    
 }
-.logoYBotones{
-    border: 1;
-    border-style:solid;
+.logo-menu{
+    display: flex;
 }
 .logoProyecto{
     height: 1cm;
@@ -38,6 +29,8 @@ header{
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
+
+
 /*
 @media screen and (max-width:1200px){
     header{
