@@ -1,6 +1,6 @@
 
 header{
-    border: 1;
+    border: 1px;
     border-style:solid;
 }
 .nombrePagina{
@@ -11,29 +11,44 @@ header{
 /*---------------Encabezado--------- */
 
 .menu-navegacion{
+    display: flex;
+    justify-content: space-between;
     text-decoration: none;
     color: aqua;
-    display: flex;
+    align-items: center;
+    
 }
 .menu-navegacion a {
+    padding: 5px;
+    margin: 0 20px;
     color: #ffffff;
     text-decoration: none;
-    border: 1;
-    border-style:solid; 
-    background-color: black;
-    
-    
+    background-color: black; 
 }
-.logo-menu{
-    display: flex;
-}
+ 
+
 .logoProyecto{
-    height: 1cm;
-    width: 1cm;
+    height: 3cm;
+    width: 3cm;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+    
 }
+.logo-container {
+    float: left;
+}
+.encabezado{
+    border: 3px;
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    height: min-content;
 
+
+}
+a:hover {
+    color: orange;
+}
 /*---------------Fin Encabezado--------- */
 
 /*
