@@ -1,3 +1,4 @@
+
 header{
     border: 1;
     border-style:solid;
@@ -6,6 +7,9 @@ header{
     text-align: center;
     color: aqua;
 }
+ 
+/*---------------Encabezado--------- */
+
 .menu-navegacion{
     text-decoration: none;
     color: aqua;
@@ -30,6 +34,7 @@ header{
     mix-blend-mode: multiply;
 }
 
+/*---------------Fin Encabezado--------- */
 
 /*
 @media screen and (max-width:1200px){
