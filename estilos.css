@@ -1,5 +1,9 @@
 
 /*---------------Encabezado--------- */
+.contenedor-menu-navegacion li{
+    background-color: aqua;
+    font-size: 200%;
+}
 
 .menuNavegacion{
     height: auto;
