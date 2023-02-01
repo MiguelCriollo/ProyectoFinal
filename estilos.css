@@ -1,32 +1,33 @@
 
 /*---------------Encabezado--------- */
-.contenedor-menu-navegacion li{
+.menuNavegacionPrincipal-contenedorLinksNavegacion li{
     background-color: aqua;
     font-size: 200%;
     
 }
 
 
-.menuPrincipal{
+.menuNavegacionPrincipal{
     display: flex;
     border-style: solid;
     border-width: 1px;
 }
 
-.imagen{
+.menuNavegacionPrincipal-contenedorLogo{
     width: 10%;
 }
 
-.contenedor-menu-navegacion{
+.menuNavegacionPrincipal-contenedorLinksNavegacion{
     display: flex;
     justify-content: center;
-    width: 100%;
-    width: 90%;
+    width:90%;
+
 }
 .menu-navegacion{
     width: 100%;
     display: flex;
     margin-top: 10px;
+    margin-bottom: 10px;
     list-style: none;
     padding: 0px;
     background-color: rgb(0, 199, 248);
@@ -43,9 +44,9 @@
 
 }
 
-.logoProyecto{
+.menuNavegacionPrincipal-logoProyecto{
     width: 100%;
-    height: 90%;
+    height: 100%;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     
@@ -53,13 +54,3 @@
 
 
 
-/*---------------Fin Encabezado--------- */
-
-/*
-@media screen and (max-width:1200px){
-    header{
-        border: 1;
-        border-style: dotted;
-    }
-}
-*/
