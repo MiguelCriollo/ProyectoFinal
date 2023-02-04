@@ -1,35 +1,37 @@
 
-/*---------------Encabezado--------- */
-.contenedor-menu-navegacion li{
-    background-color: aqua;
-    font-size: 200%;
-}
+/*----------------INICIO NAV--------- */
 
-.menuNavegacion{
-    height: auto;
-    border-style: solid;
-    border-width: 1px;
-    height: auto;
-}
-
-.menuPrincipal{
+.menuNavegacionPrincipal{ 
     display: flex;
     border-style: solid;
     border-width: 1px;
 }
-
-.imagen{
+/*--------------Para mostrar logo------------*/
+.menuNavegacionPrincipal_contenedorLogo{
     width: 10%;
 }
 
-.contenedor-menu-navegacion{
-    width: 90%;
-        
-}
-.menu-navegacion{
-    display: flex;
+.menuNavegacionPrincipal_logoProyecto{
+    width: 100%;
+    height: 100%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
     
+}
+/*--------------------------------------*/
+/*--------------------Mostrar lista de navegacion------------------*/
+.menuNavegacionPrincipal_contenedorLinksNavegacion{
+    display: flex;
+    justify-content: center;
+    width:90%;
 
+}
+
+.menu_navegacion{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
     list-style: none;
     background-color: rgb(0, 199, 248);
     justify-content: space-around;
@@ -37,32 +39,22 @@
     border-width: 1px;
     height: 100%;
 }
+.menuNavegacionPrincipal_contenedorLinksNavegacion li{
+    background-color: aqua;
+    font-size: 200%;
+}
+
+
 .itemsMenuNavegacion{
-    
-    display: inline-block;
+    display: flex;
+    align-items: center;
     border-style: solid;
     border-width: 1px;
     padding: 20px;
 
 }
 
-.logoProyecto{
-    width: 100%;
-    height: 90%;
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
-    
-}
+/*--------------------------------------*/
 
+/*---------------FIN NAV------------------ */
 
-
-/*---------------Fin Encabezado--------- */
-
-/*
-@media screen and (max-width:1200px){
-    header{
-        border: 1;
-        border-style: dotted;
-    }
-}
-*/
